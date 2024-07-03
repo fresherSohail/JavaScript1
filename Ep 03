@@ -1,0 +1,21 @@
+HTML File
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="file:///C:/Users/Lenovo/eclipse-workspace/SecondProject/src/StylingFile.js">
+</script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>
+
+=====================================================================================================================================================================================================================
+
+JavaScript File
+
+document.write("<b><i>Sohail Shaikh<br><br></i><b>");	
+document.write("Sohail Salim Shaikh");
