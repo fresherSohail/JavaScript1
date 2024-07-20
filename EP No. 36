@@ -1,0 +1,18 @@
+<html>
+<head>
+<style>
+
+var arr = ["Sohail", 19, "BMMS, "MBA"];
+
+var arr[0] = "example";
+
+document.write(arr);
+
+delete arr[3];
+
+document.write(arr);
+
+</style>
+</head>
+<body>
+</html>
