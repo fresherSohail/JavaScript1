@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+
+var arry = [
+	[1, "Sohail", 22, "BMS", "Mumbai"],
+	[2, "Sagar", 22, "BCOM", "Mumbai"],
+	[3, "Sameer", 22, "BCA", "Mumbai"],
+	[4, "Sankar", 22, "BA", "Mumbai"],
+	[5, "Shoaib", 22, "BSC", "Mumbai"]
+];
+
+arry.sort();
+
+document.write("<table border='1px' cellspacing='0'>");
+
+for(var a=0; a<arry.length; a++){
+	document.write("<tr>");
+	for(var b=0; b<arry[a].length; b++){
+		document.write("<td>"+ arry[a][b] + "</td>");
+	}
+	document.write("</tr>");
+}
+
+document.write("</table>");
+
+</script>
+</head>
+<body>
+</body>
+</html>
