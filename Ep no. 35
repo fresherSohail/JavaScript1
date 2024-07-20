@@ -12,9 +12,6 @@ var arry = [
 	[4, "Sankar", 22, "BA", "Mumbai"],
 	[5, "Shoaib", 22, "BSC", "Mumbai"]
 ];
-
-arry.sort();
-
 document.write("<table border='1px' cellspacing='0'>");
 
 for(var a=0; a<arry.length; a++){
