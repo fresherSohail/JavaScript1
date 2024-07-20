@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+
+var arr = ["Sohail","Aleem", "Motivate", "Emiway"];
+
+arr.pop();
+
+document.write(arr + "<br>");
+
+arr.push("Emiway");
+
+document.write(arr);
+
+</script>
+</head>
+<body>
+</body>
+</html>
