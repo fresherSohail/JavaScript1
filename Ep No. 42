@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+
+var a = ["Sohail", "Amir", "Zabbar","Faisal"];
+
+//var a = 100;
+
+//var a = "String";	
+
+document.write(a + "<br>"+ "<br>");
+ 
+if(Array.isArray(a)){
+	document.write("This is an Array");
+}else{
+	document.write("This is not an Array");
+} 
+ 
+</script>
+</head>
+<body>
+</html>
