@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+
+//(Slice function)
+//var arr = ["Sohail", 19, "BMMS", "MBA"]
+//document.write(arr + "<br><br>");
+//var v = arr.slice(1,3);
+//document.write(v);
+
+
+//(Splice function)
+var arr= ["Sohail", "Shaikh", "Shakeer", "Suraj"];
+document.write(arr + "<br>" + "<br>");
+arr.splice(1,1,"Amir", "Istiyak");
+document.write(arr);
+
+
+</script>
+</head>
+<body>
+</html>
