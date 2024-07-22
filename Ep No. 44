@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+
+var a = ["Sohail", "Amir", "Zabbar", "Amir","Faisal"];
+
+document.write(a + "<br>" + "<br>");
+ 
+var g = a.includes("Amir"); 
+ 
+document.write(g); 
+ 
+</script>
+</head>
+<body>
+</html>
