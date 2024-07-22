@@ -1,0 +1,20 @@
+<html>
+<head>
+<script>
+
+var a = ["Sohail", "Amir", "Zabbar", "Amir","Faisal"];
+
+document.write(a + "<br>" + "<br>");
+ 
+var b = a.indexOf("Amir", 2); 
+ 
+document.write("Index Number: " + b + "<br>" + "<br>"); 
+
+var c = a.lastIndexOf("Amir", 2);
+
+document.write("Last Index Of: " + c);
+ 
+</script>
+</head>
+<body>
+</html>
