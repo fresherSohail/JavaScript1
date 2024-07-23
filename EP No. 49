@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+
+
+var a =["Sohail", "AMir","Istiyak","Zaheer","Faisal"];
+
+document.write(a + "<br>" + "<br>");
+
+a.forEach(loop);
+
+function loop(value, index){
+	document.write(index + " : " + value + "<br>" +"<br>");
+}
+
+</script>
+</head>
+<body>
+</html>
