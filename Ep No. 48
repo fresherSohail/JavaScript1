@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+
+
+var a =[1,12,13,45,61];
+
+document.write(a + "<br>" + "<br>");
+
+a.toString(); //To string function.
+
+a.fill("Sohail");//fill function.
+
+a.valueOf(); // ValueOf function.
+
+document.write(a);
+
+
+</script>
+</head>
+<body>
+</html>
