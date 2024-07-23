@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+
+
+var ages =[1,2,3,455,6];
+
+function checkedAdult(number){
+	return number >= 100;
+	}
+	
+var b = ages.findIndex(checkedAdult);
+
+document.write(b);
+
+</script>
+</head>
+<body>
+</html>
