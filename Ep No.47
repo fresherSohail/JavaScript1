@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+
+
+var ages =[1,12,13,45,61];
+
+document.write(ages + "<br>" + "<br>");
+
+function checkedAdult(age){
+	return age>=18;
+} 
+
+var b = ages.filter(checkedAdult);
+
+document.write(b);
+
+</script>
+</head>
+<body>
+</html>
