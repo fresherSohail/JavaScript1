@@ -1,0 +1,27 @@
+<html>
+<head>
+<Script>
+
+const a = {fName:'sohail',
+		age: 24};
+	
+a.fName= 'shaikh';
+
+a.age = 233;
+		
+	//	a = {fName: 'shaikh',
+		//		age : 22};
+
+const b = ['Sohail', 33];
+
+b[0] = 'shaikh';
+	
+document.write(a.fName + " " + a.age + "<br>");
+
+document.write(b);
+
+</Script>
+</head>
+<body>
+</body>
+</html>
