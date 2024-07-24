@@ -1,0 +1,40 @@
+<html>
+<head>
+<Script>
+
+var str = "Java is a best language";
+
+var str1 = "  Java  ";
+
+//var b = str.length;
+
+//var b = str.toLowerCase();
+
+//var b = str.toUpperCase();
+
+//var b = str.includes("best");
+
+//var b = str.startsWith("java");
+
+//var b = str.endsWith("uage");
+
+//var b = str.search("best");
+
+//var b = str.match(/a/g);
+
+//var b = str.indexOf("e");
+
+//var b = str.lastIndexOf("g");
+
+//var b = str.replace("best","great");
+
+//var b = str1.trim();
+
+alert(b);
+
+
+</Script>
+</head>
+<body>
+</body>
+</html>
