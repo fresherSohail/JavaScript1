@@ -1,0 +1,26 @@
+<html>
+<head>
+<Script>
+
+var a = new Object();
+
+a.fName= 'sohail';
+
+a.lName="Shaikh";
+
+a.age= 35;
+
+document.write(a.fName);
+document.write(a.lName);
+document.write(a.age + "<br>" + "<br>");
+
+
+
+document.write(a.fName + " " + a.lName + " " +a.age);
+
+
+</Script>
+</head>
+<body>
+</body>
+</html>
