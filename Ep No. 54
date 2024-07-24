@@ -1,0 +1,21 @@
+<html>
+<head>
+<Script>
+
+var a ={
+		fName: 'sohail',
+		lName: 'shaikh',
+		contact: 8840403,
+		age: 23,
+		emailId: 'email@gmail.com'
+}
+
+for(var b in a){
+	document.write(b + ":  " + "-  "+ a[b] + "<br>");
+}
+
+</Script>
+</head>
+<body>
+</body>
+</html>
