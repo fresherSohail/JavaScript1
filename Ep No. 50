@@ -1,0 +1,47 @@
+<html>
+<head>
+<Script>
+var a = {
+		fName: 'Sohail',
+		lName: 'Shaikh',
+		contact: 8850599532,
+		emailId: 'sohail271201@gmail.com',
+		fMovies: ['the Boys', 'Animal','Pirates'],
+		location: {
+			city: 'Mumbai',
+			country: 'India'
+		},
+		salary: function(){
+			return 22000;
+		},
+		fullName: function(){
+			return this	.fName + " " + this.lName;	
+		}
+}
+
+document.write(a.fName + "<br>" + "<br>");
+document.write(a.lName + "<br>" + "<br>");
+document.write(a.contact + "<br>" + "<br>");
+document.write( a.emailId +"<br>" + "<br>");
+document.write(a.fMovies+"<br>" + "<br>");
+document.write(a.salary()+"<br>" + "<br>");
+document.write(a.fullName()+"<br>" + "<br>");
+
+document.write(a.location.city+"<br>" + "<br>");
+document.write(a.location.country+"<br>" + "<br>");
+
+"use strict";
+document.write(functions());
+
+
+function functions(){
+	return this;
+}
+
+
+
+</Script>
+</head>
+<body>
+</body>
+</html>
