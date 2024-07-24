@@ -1,0 +1,18 @@
+<html>
+<head>
+<Script>
+
+var a = [{fName:'sohail', age:22},
+         {fName:'Istiyak', age: 23},
+         {fName: 'Amir', age:22}
+]
+
+for(var i =0; i<a.length; i++){
+document.write(a[i].fName + " " + a[i].age + "<br>");
+}
+
+</Script>
+</head>
+<body>
+</body>
+</html>
