@@ -1,0 +1,22 @@
+<html>
+<head>
+<Script>
+
+var a = [{fName:'sohail', lName:'shaikh', age: 22},
+	{fName:'faisu', lName:'khan', age: 24},
+	{fName:'adaf', lName:'sayyed', age: 56}
+	];
+
+function test(x){
+	return x.fName + " " + x.lName + " " + x.age + "<br>"; 
+}
+	
+var b = a.map(test);	
+
+document.write(b);
+
+</Script>
+</head>
+<body>
+</body>
+</html>
