@@ -1,0 +1,28 @@
+<html>
+<head>
+<Script>
+
+var str = "-9";
+
+//var num = str.toFixed(5); It will decrease the digit number of float, after decimal. 
+
+//var num1 = str1.toPrecision(5); It will be the same as fixed number, but in fixed number it added 2 more digit at the end. 
+
+//var b = parseInt(str); It is used to change anything into integer.
+
+// var b = parseFloat(str); It is only used to return decimal number if it is there.
+
+// var b = isFinite(str); It is used to checked the value is countable or not, if it is countable then it will return true otherwise false.
+
+//var b = Number.isInteger(str); It is used to checked the value is integer or not.
+
+//var b = Number(str); It is used to change the string into integer.
+
+document.write("<br>" + b);
+
+
+</Script>
+</head>
+<body>
+</body>
+</html>
