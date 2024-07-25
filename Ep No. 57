@@ -1,0 +1,39 @@
+<html>
+<head>
+<Script>
+
+var str = "Java is a best language";
+
+var str1 = "Hello";
+
+var str2 = "World";
+
+var num = 12;
+
+//var b = str.charAt(8);  If we put index it will return character based on index number.
+
+//var b = str.charCodeAt(9); In code we have each character at specific number, so here when you put index number of the string above based on the specific index number whatever the character will be there, it will return character code number.
+
+//var b = String.fromCharCode(1000); for here we dont need string, If we put code number here, it will return character.
+
+//var b = str.concat(" " + str1 + " " + str2); It is used to concat two string (it is used to add two string each other.)
+
+//var b = str.split(" "); it is used to split the string into array based on the info we provide.
+
+//var b = str.repeat(3); it is used to print string as many as we want based on the number we provide.
+
+//var b = str.substr(1,8); //based on the index number of string we provide from that number it will return inluding from that number to further character. (it will also let us to put two number, first number is index number of character, and second number is the number how much character does he have to pick it up and return  )
+
+//var b = str.substring(2,7); based on the first number it choose the character becuase we are providing character number, and second number is also index number it will pick character till the second number but leave the last number character.  
+
+//var b = num.toString(); it transform the number into string.
+
+var b = str.valueOf(); // it wil use to return all string. mostly people dont use this becuase it is no use.
+
+document.write(b);
+
+</Script>
+</head>
+<body>
+</body>
+</html>
